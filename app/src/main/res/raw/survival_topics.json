@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Surviving hydroplaning",
+    "description": "Learn techniques to control your vehicle in rainy conditions.",
+    "imageResName": "hydroplaning"
+  },
+  {
+    "title": "Surviving a knife stab",
+    "description": "Vital tips on how to protect yourself in a knife attack.",
+    "imageResName": "knife_stab"
+  },
+  {
+    "title": "Surviving falling from a high building",
+    "description": "Tips and methods that might help reduce injury from high falls.",
+    "imageResName": "falling"
+  },
+  {
+    "title": "Surviving choking alone",
+    "description": "Self-heimlich maneuver techniques when no one is around.",
+    "imageResName": "choking"
+  },
+  {
+    "title": "Escaping a Fire",
+    "description": "Steps to follow when trapped in a fire situation.",
+    "imageResName": "fire_escape"
+  }
+]
