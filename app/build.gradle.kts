@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -38,6 +39,9 @@ dependencies {
     implementation(libs.activity)
     implementation("com.faendir.rhino:rhino-android:1.5.2")
     implementation(libs.constraintlayout)
+    implementation(libs.firebase.storage)
+    implementation("com.squareup.picasso:picasso:2.8")
+    implementation(libs.firebase.firestore)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
