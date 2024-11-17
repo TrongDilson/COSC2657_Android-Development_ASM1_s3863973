@@ -1,5 +1,9 @@
 # 🤕🩹💢 Last Second Survival App
 
+<p align="center">
+  <img width="250" src="https://github.com/TrongDilson/COSC2657_Android-Development_ASM1_s3863973/blob/master/app/src/main/res/drawable/appicon.PNG">
+</p>
+
 ## 📖 Overview
 
 The **Last Second Survival App** is an Android application that provides essential survival tips for various emergency scenarios. The app displays a list of tips and offers detailed descriptions with illustrations (GIFs) when users select a specific topic.
