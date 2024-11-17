@@ -1,28 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
     tools:context=".MainActivity">
 
-    <!-- LinearLayout inside ScrollView -->
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#0066FF">
+
+        <TextView
+            android:id="@+id/topText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Last Second Survival"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+    <!-- ScrollView containing Buttons -->
+    <ScrollView
+        android:id="@+id/mainScrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="12dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+        android:layout_below="@id/topView"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
 
-        <!-- Top View -->
-        <View
-            android:id="@+id/view"
-            android:layout_width="match_parent"
-            android:layout_height="125dp"
-            android:background="#0066FF" />
-
-        <!-- Container for Buttons -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,62 +44,127 @@
             android:layout_margin="10dp">
 
             <!-- Button 1 -->
-            <com.google.android.material.button.MaterialButton
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                app:cornerRadius="10dp"
-                style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
-                android:textSize="32sp"
-                android:textColor="@color/white"
-                android:layout_marginBottom="10dp"
-                android:backgroundTint="#6E9FED"
-                android:textAllCaps="false"
-                android:id="@+id/button_1"
-                android:text="Surviving hydroplaning" />
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/hydroplaning" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:cornerRadius="10dp"
+                    style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
+                    android:textSize="28dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#6E9FED"
+                    android:id="@+id/button_1"
+                    android:textAllCaps="false"
+                    android:text="Surviving hydroplaning" />
+            </LinearLayout>
+
 
             <!-- Button 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/knifestab" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 app:cornerRadius="10dp"
                 style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
-                android:textSize="32sp"
+                android:textSize="28dp"
                 android:textColor="@color/white"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="#6E9FED"
                 android:id="@+id/button_2"
                 android:textAllCaps="false"
                 android:text="Surviving a knife stab" />
+        </LinearLayout>
 
             <!-- Button 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/planecrash" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 app:cornerRadius="10dp"
                 style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
-                android:textSize="32sp"
+                android:textSize="32dp"
                 android:textColor="@color/white"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="#6E9FED"
                 android:id="@+id/button_3"
                 android:textAllCaps="false"
-                android:text="Surviving a knife stab" />
+                android:text="Surviving plane crash" />
+        </LinearLayout>
 
             <!-- Button 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/falling" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 app:cornerRadius="10dp"
                 style="@style/ShapeAppearanceOverlay.Material3.FloatingActionButton"
-                android:textSize="32sp"
+                android:textSize="24dp"
                 android:textColor="@color/white"
-                android:layout_marginBottom="10dp"
                 android:backgroundTint="#6E9FED"
                 android:id="@+id/button_4"
                 android:textAllCaps="false"
                 android:text="Surviving falling from high building" />
+        </LinearLayout>
 
             <!-- Button 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="98dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/swallow" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -98,8 +177,20 @@
                 android:id="@+id/button_5"
                 android:textAllCaps="false"
                 android:text="Surviving choking alone" />
-
+        </LinearLayout>
             <!-- Button 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="98dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/buildingonfire" />
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -113,5 +204,7 @@
                 android:textAllCaps="false"
                 android:text="Escaping a Fire" />
         </LinearLayout>
-    </LinearLayout>
-</ScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

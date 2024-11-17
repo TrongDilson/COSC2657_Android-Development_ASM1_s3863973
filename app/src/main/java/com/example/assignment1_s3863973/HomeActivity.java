@@ -28,7 +28,7 @@ public class HomeActivity extends AppCompatActivity {
         infoButton.setOnClickListener(v -> {
             new AlertDialog.Builder(HomeActivity.this)
                     .setTitle("About")
-                    .setMessage("Name: Tran Vinh Trong\nSid: s3863973\nCourse: COSC2657 | Android Development\n\nDescription:\nThis app is meant to spread awareness on how to survive extreme hazards if this ever happen to an individual.")
+                    .setMessage("Name: Tran Vinh Trong\nSid: s3863973\nCourse: COSC2657 | Android Development\n\nDescription:\nThis app is meant to spread awareness on how to survive extreme hazards if this ever happen to an individual.\n\nCredit:\nhttps://www.youtube.com/@zackdfilms")
                     .setPositiveButton("OK", (dialog, which) -> dialog.dismiss())
                     .show();
         });
