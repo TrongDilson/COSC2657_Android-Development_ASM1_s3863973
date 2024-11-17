@@ -1,27 +1,32 @@
 [
   {
     "title": "Surviving hydroplaning",
-    "description": "Learn techniques to control your vehicle in rainy conditions.",
-    "imageResName": "hydroplaning"
+    "description": "Hydroplaning happens when you drive on a soaked street which makes running car having no sign of being stopped.\n===========\nSome people will be panic and use break in hope to stop the car.\n===========\nHowever, this will lead to unfortunate car accident because wheels need friction on street but the street is soaked.\n===========\nTo increase chance of surviving, make sure the car always run on steady speed at slow acceleration and never use the break in this hazard situation.\n===========\n<<<Swipe to left to return page>>>\n===========\n",
+    "imageResName": "survivehydroplaning"
   },
   {
-    "title": "Surviving a knife stab",
-    "description": "Vital tips on how to protect yourself in a knife attack.",
-    "imageResName": "knife_stab"
+    "title": "Surviving knife stab",
+    "description": "When getting stabbed, it is important not to pull out the knife or else the bleeding will be worse.\n===========\nKeep calm, apply pressure on the stabbed wound to control and elevate the injure area above the heart to slow down blood loss.\n===========\nAt the mean time after calling for emergency services, you should try to relax.\n===========\n<<<Swipe to left to return page>>>\n===========\n",
+    "imageResName": "stab"
+  },
+  {
+    "title": "Surviving from a plane crash",
+    "description": "When plane starts falling, you should embrace yourself in a brace position with back lie down to knee point and hands cover back of neck.\n===========\nIt is important to remember that passenger's suitcases or belongings will be let loose and fall on everyone.\n===========\nBefore sudden crash landing and emergency guidance, lock in brace position with back spine protecting will increase the chance of survival.\n===========\n<<<Swipe to left to return page>>>\n===========\n",
+    "imageResName": "plane"
   },
   {
     "title": "Surviving falling from a high building",
-    "description": "Tips and methods that might help reduce injury from high falls.",
-    "imageResName": "falling"
+    "description": "In this extreme situation, there are only few options you can do such as relax your body by moving arms and legs to keep them loose.\n===========\nThen, if possible, when you see objects that can break your fall momentum, you should aim your fall at one of them.\n===========\nFor instance, if tree is the only option, position your legs down to brace for impact.\n===========\nOnce you land, rolling down will spread the impact and increase a bit of chance to survive.\n===========\n<<<Swipe to left to return page>>>\n===========\n",
+    "imageResName": "skyscrapper"
   },
   {
     "title": "Surviving choking alone",
-    "description": "Self-heimlich maneuver techniques when no one is around.",
+    "description": "When you got choked with no one around to support, immediately call emergency service first.\n===========\nAt the mean time, try forcefully cough the stuff out your throat.\n===========\nIf that does not work, make one of your hand into a fist with other hand placed on make a push to your stomach to create a thrust out of your throat.\n===========\n If necessary, try to find solid object to create extra force with your hands.\n===========\nDO all these steps until immediate emergency help comes to you.\n===========\n<<<Swipe to left to return page>>>\n===========\n",
     "imageResName": "choking"
   },
   {
     "title": "Escaping a Fire",
-    "description": "Steps to follow when trapped in a fire situation.",
-    "imageResName": "fire_escape"
+    "description": "When encountering fire at home, try to lay down as fast as possible to avoid inhale toxic smoke from fire.\n===========\nThen, try crawl to the nearest exit door.\n===========\nBefore opening the door, check the temperature of the door knob by gently touching it.\n===========\nIf the door knob is hot, it is highly there is also huge fire on the other side of the door.\n===========\nIn that situation, forcefully break the window glass with solid object like a chair then apply clothe materials on that window to ensure your escape without getting injured by broken glass.\n===========\nIn another circumstance, if the door knob is cold and there is no smoke leak through door, you can safely open that door and close the door to ensure no further fire spread.\n===========\n<<<Swipe to left to return page>>>\n===========\n",
+    "imageResName": "fire"
   }
 ]
