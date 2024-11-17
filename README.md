@@ -21,7 +21,7 @@ The **Last Second Survival App** is an Android application that provides essenti
 ### ⫘⫘⫘  Git repository
 - Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/survival-tips-app.git
+   git clone https://github.com/TrongDilson/COSC2657_Android-Development_ASM1_s3863973.git
 
 ## 🏆 Authors
 - Tran Vinh Trong - s3863973
