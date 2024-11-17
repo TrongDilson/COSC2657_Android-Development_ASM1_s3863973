@@ -31,7 +31,7 @@
             android:background="#EEC4FA"
             android:fontFamily="sans-serif"
             android:padding="8dp"
-            android:text="Last Second Survival"
+            android:text="Welcome User"
             android:textAlignment="center"
             android:textSize="34sp"
             tools:ignore="HardcodedText" />
